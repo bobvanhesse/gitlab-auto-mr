@@ -1,0 +1,12 @@
+{
+  "name": "gitlab-auto-mr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "github:bobvanhesse/gitlab-auto-mr",
+  "bugs": "https://github.com/bobvanhesse/gitlab-auto-mr/issues",
+  "author": "Bob van Hesse <bob@vanhesse.nl>",
+  "license": "MIT",
+  "bin": {
+    "auto-mr": "./bin.js"
+  }
+}
