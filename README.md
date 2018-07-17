@@ -1,8 +1,14 @@
 # Gitlab Auto MR
 This module will help you automate the process of moving files from one project to another.
 ## CLI
-    - `auto-mr`: Trigger the functionality of this module.
-    - `auto-mr -f ./path/to/auto-mr.config.js`: Using the `-f`/`--file` flag you can set the path to the config file relative to the source project's root directory.
+Trigger the functionality of this module:
+```
+auto-mr
+```
+Using the `-f`/`--file` flag you can set the path to the config file relative to the source project's root directory:
+```
+auto-mr -f ./path/to/auto-mr.config.js
+```
 ## Docs
 The following is an example of an `auto-mr.config.js` file:
 ```js
